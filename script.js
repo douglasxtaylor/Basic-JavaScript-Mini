@@ -1,14 +1,14 @@
 const logger = () => console.log('hi');
 
 const looper = () => {
-  let message = 'I love JS!';
+  const message = 'I love JS!';
   for (let i = 0; i < 10; i++) {
     console.log(message);
   }
 };
 
-const greet = (name) =>{
-  let greeting = 'Hello, ' ${name}'!';
+const greet = (yourName) =>{
+  let greeting = 'Hello, ${name}!';
   console.log(greeting);
 };
 
